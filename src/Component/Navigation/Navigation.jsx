@@ -29,8 +29,9 @@ import { faCartPlus, faHeart, faSearch } from '@fortawesome/free-solid-svg-icons
 const Navigation = () => {
     return (
         <>
-            <div className="container">
-                <Navbar expand="lg">
+            <div className="">
+                
+                <Navbar expand="lg" sticky="top">
                     <Navbar.Brand href="#home" className="main-logo">
                         <img src={logo} alt="Yaali" srcset=""/>
                     </Navbar.Brand>
@@ -64,6 +65,7 @@ const Navigation = () => {
                         
                     </Navbar.Collapse>
                 </Navbar>
+                
             </div>
         </>
     );

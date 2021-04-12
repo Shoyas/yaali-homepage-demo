@@ -25,7 +25,7 @@ const SlidePage = () => {
                             <button className="btn-slide">BUY NOW</button>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item interval={500}>
+                    <Carousel.Item interval={1000}>
                         <img
                         className="d-block w-100 image-size"
                         src={slide2}
@@ -37,7 +37,7 @@ const SlidePage = () => {
                             <button className="btn-slide">BUY NOW</button>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item  interval={1000}>
                         <img
                         className="d-block w-100 image-size"
                         src={slide3}
@@ -49,7 +49,7 @@ const SlidePage = () => {
                             <button className="btn-slide">BUY NOW</button>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item  interval={1000}>
                         <img
                         className="d-block w-100 image-size"
                         src={slide4}
@@ -61,7 +61,7 @@ const SlidePage = () => {
                             <button className="btn-slide">BUY NOW</button>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item  interval={1000}>
                         <img
                         className="d-block w-100 image-size"
                         src={slide5}
@@ -73,7 +73,7 @@ const SlidePage = () => {
                             <button className="btn-slide">BUY NOW</button>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item  interval={1000}>
                         <img
                         className="d-block w-100 image-size"
                         src={slide6}

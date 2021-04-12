@@ -43,14 +43,17 @@ const FooterPage = () => {
                         </ul>
                     </div>
                 </div>
+                
+            </div>
+            <div className="container-fluid">
                 <div className="row mt-3 mb-5">
-                    <div className="col-md-6">
-                        <small style={{color: 'gray'}}>@{(new Date()).getFullYear()} YaAli All right reserved</small>
-                    </div>
-                    <div className="col-md-6 d-flex flex-row-reverse bd-highlight">
-                        <FontAwesomeIcon className="ml-3" icon={faCartPlus} />
-                        <FontAwesomeIcon icon={faHeart} /> 
-                    </div>
+                        <div className="col-md-6">
+                            <small style={{color: 'gray'}}>@{(new Date()).getFullYear()} YaAli All right reserved</small>
+                        </div>
+                        <div className="col-md-6 d-flex flex-row-reverse bd-highlight">
+                            <FontAwesomeIcon className="ml-3" icon={faCartPlus} />
+                            <FontAwesomeIcon icon={faHeart} /> 
+                        </div>
                 </div>
             </div>
         </>
