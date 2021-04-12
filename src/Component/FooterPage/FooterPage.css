@@ -1,0 +1,7 @@
+.footer-tag ul li{
+    list-style: none;
+    padding: 0px 0px 5px 0px;
+    margin: 0px 0px 0px -35px;
+    font-weight: 600;
+    color: gray;
+}

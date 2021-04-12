@@ -1,0 +1,111 @@
+.main-logo img{
+    height: 90px;
+    width: 120px;
+}
+
+.search-group{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+.dropdown{
+    position: relative;
+    width: 150px;
+    color: #3a3a3a;
+    cursor: pointer;
+    background-color: lightgray;
+}
+.default-option{
+    padding: 10px 10px;
+}
+.dropdown-list ul{
+    list-style: none;
+    background-color: #ffff;
+    color: #696969;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 150px;
+    border-radius: 5px;
+    display: none;
+}
+.dropdown-list ul .active{
+    display: block;
+}
+.dropdown-list ul li{
+    padding: 5px 0px;
+}
+.dropdown::before{
+    content: "";
+    border-width: 6px 6px 0px 6px;
+    border-style: solid;
+    border-color: black transparent;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+}
+.dropdown-list ul li::before{
+    content: "";
+    border-width: 0px 8px 8px 8px;
+    border-style: solid;
+    border-color: #ffff transparent;
+    position: absolute;
+    bottom: 100%;
+    right: 20px;
+}
+.dropdown-list ul li:hover{
+    background-color: #ffff;
+    color: #3a3a3a;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.search{
+    width: 60%;
+    height: 100%;
+    border: 0;
+    padding: 0px 10px;
+    color: #3a3a3a;
+}
+.search-input{
+    width: 324px;
+    height: 48px;
+    border: 0px;
+}
+.btn{ 
+    background-color: #F25A28;
+    width: 50px;
+    height: 48px;
+    border: 0;
+    border-radius: 0px;
+    cursor: pointer;
+    
+}
+.search-icon{
+    font-size: 22px;
+    color: #ffff;
+}
+.search-icon:hover{
+    font-size: 24px;
+    color: #ffff;
+}
+input, button:focus{
+    outline: none;
+}
+.btn:focus,
+.btn:active,
+.login-btn:focus,
+.login-btn:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+.login-btn{
+    background-color: #4A00A0;
+    width: 150px;
+    height: 48px;
+    border: 0;
+    border-radius: 0px;
+    cursor: pointer;
+    color: #ffff;
+}

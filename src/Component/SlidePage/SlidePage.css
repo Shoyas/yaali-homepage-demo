@@ -1,0 +1,25 @@
+.image-size{
+    height: 400px;
+}
+.carousel-tag{
+    margin: 0 320px 70px 0 !important;
+}
+.carousel-tag h3{
+    text-align: left;
+}
+.carousel-tag p{
+    text-align: left;
+    color: lightgray;
+}
+.carousel-tag button{
+    margin: 0px 530px 0px 0px;
+}
+.btn-slide{ 
+    background-color: #F25A28;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 0px;
+    cursor: pointer;
+    color: #ffff;
+}
