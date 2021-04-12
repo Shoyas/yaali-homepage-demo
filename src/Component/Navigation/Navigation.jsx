@@ -56,7 +56,7 @@ const Navigation = () => {
                         <Nav className="ml-auto">
                             <Nav.Link href="#heart"><FontAwesomeIcon className="mt-3" icon={faHeart} /></Nav.Link>
                             <Nav.Link href="#cart"><FontAwesomeIcon className="mt-3" icon={faCartPlus} /></Nav.Link>
-                            <Nav.Link href="#cart">
+                            <Nav.Link href="#login">
                                 <button className="login-btn">Login/Register</button>
                             </Nav.Link>
                              
