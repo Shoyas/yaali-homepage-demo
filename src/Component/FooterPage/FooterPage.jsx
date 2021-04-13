@@ -6,7 +6,7 @@ import { faHeart,  faCartPlus } from '@fortawesome/free-solid-svg-icons';
 const FooterPage = () => {
     return (
         <>
-            <div className="container container-fluid mt-5">
+            <div className="footerPage-area container-fluid mt-5">
                 <div className="row">
                     <div className="col-md-3 footer-tag">
                         <h4><strong>YaAli</strong></h4>

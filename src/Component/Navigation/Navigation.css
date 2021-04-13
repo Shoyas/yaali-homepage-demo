@@ -1,6 +1,7 @@
 .main-logo img{
     height: 90px;
     width: 120px;
+    margin: 0px 0px 0px -35px;
 }
 
 .search-group{
@@ -108,4 +109,11 @@ input, button:focus{
     border-radius: 0px;
     cursor: pointer;
     color: #ffff;
+}
+.navigation-area{
+    width: 90%;
+    margin-left: 70px;
+}
+.nav-icons{
+    margin-right: -26px;;
 }

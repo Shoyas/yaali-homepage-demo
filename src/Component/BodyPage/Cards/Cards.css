@@ -1,17 +1,75 @@
 .card-container{
     width: 100%;
-    height: 250px;
+    height: 290px;
     background-color: #29AAE1;
+    margin-bottom: 50px;
+}
+.card-header{
+    margin-bottom: 10px;
+    /* display: none; */
 }
 .card-body{
-    background-color: #F25A28;
-    margin: 10px;
-    margin-top: 10px;
-    /* padding: 5px; */
+    background-color: #D3145A;
+    padding: 25px 0px 0px 0px;
+    margin-left: 30px;
+    margin-top: 12px;
+    height: 210px;
+    width: 215px;
 }
 
 .card-image img{
     width: 150px;
     height: 150px;
-    margin: 10px 15px;
+    margin: 0px 32px;
 }
+
+/* 3D card designing starts*/
+/* upper and left side 3d design starts */
+.card-body::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    width: 85%;
+    height: 11%;
+    background-color: #AF0C4F;
+    /* transform: skew(240deg 45deg); */
+    transform: skew(
+-44deg
+, 
+0deg
+);
+}
+.card-body::after{
+    content: '';
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 10%;
+    height: 74%;
+    background-color: #E7317C;
+    transform: skewY( 
+-41deg
+ );
+
+}
+/* upper and left side 3d design ends */
+
+/* bottom and right side 3d design starts */
+/* .card-container::before{
+    content: '';
+    position: absolute;
+    right: 10%;
+    width: 85%;
+    height: 11%;
+    background-color: #916f7d;
+    transform: skew(
+                    -44deg
+                    , 
+                    0deg
+                    );
+} */
+
+/* bottom and right side 3d design ends */
+
+/* 3D card designing ends*/

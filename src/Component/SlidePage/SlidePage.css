@@ -23,3 +23,7 @@
     cursor: pointer;
     color: #ffff;
 }
+.slidePage-area{
+    width: 90%;
+    margin-left: 70px;
+}

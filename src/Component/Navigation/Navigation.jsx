@@ -29,8 +29,7 @@ import { faCartPlus, faHeart, faSearch } from '@fortawesome/free-solid-svg-icons
 const Navigation = () => {
     return (
         <>
-            <div className="">
-                
+            <div className="navigation-area">
                 <Navbar expand="lg" sticky="top">
                     <Navbar.Brand href="#home" className="main-logo">
                         <img src={logo} alt="Yaali" srcset=""/>
@@ -54,7 +53,7 @@ const Navigation = () => {
                             </div>
                             <button className="btn" type="submit"><FontAwesomeIcon className="search-icon" icon={faSearch} /></button>
                         </div>
-                        <Nav className="ml-auto">
+                        <Nav className="ml-auto nav-icons">
                             <Nav.Link href="#heart"><FontAwesomeIcon className="mt-3" icon={faHeart} /></Nav.Link>
                             <Nav.Link href="#cart"><FontAwesomeIcon className="mt-3" icon={faCartPlus} /></Nav.Link>
                             <Nav.Link href="#login">

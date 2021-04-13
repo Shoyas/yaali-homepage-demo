@@ -11,7 +11,7 @@ import slide6 from '../image/slide/slide6.jpg';
 const SlidePage = () => {
     return (
         <>
-            <div className="container">
+            <div className="slidePage-area">
                 <Carousel>
                     <Carousel.Item interval={1000}>
                         <img
