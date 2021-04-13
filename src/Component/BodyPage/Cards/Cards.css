@@ -1,7 +1,7 @@
 .card-container{
     width: 100%;
     height: 290px;
-    background-color: #29AAE1;
+    background-color: #ffffff;
     margin-bottom: 50px;
 }
 .card-header{
@@ -28,47 +28,57 @@
 .card-body::before{
     content: '';
     position: absolute;
-    top: 0%;
-    left: 7%;
-    width: 85%;
-    height: 11%;
+    top: 2%;
+    left: 9%;
+    width: 80%;
+    height: 9%;
     background-color: #AF0C4F;
-    /* transform: skew(240deg 45deg); */
-    transform: skew(
--44deg
-, 
-0deg
-);
+    overflow: hidden;
+    border-radius: 5px;
+    transform: skew(-44deg, 0deg);
 }
 .card-body::after{
     content: '';
     position: absolute;
-    top: 2.5%;
+    top: 6%;
     left: 5%;
     width: 10%;
-    height: 74%;
+    height: 70%;
     background-color: #E7317C;
-    transform: skewY( 
--41deg
- );
+    overflow: hidden;
+    transform: skewY(-41deg);
 
 }
 /* upper and left side 3d design ends */
 
 /* bottom and right side 3d design starts */
-/* .card-container::before{
+.card-container::before{
     content: '';
     position: absolute;
-    right: 10%;
-    width: 85%;
-    height: 11%;
-    background-color: #916f7d;
-    transform: skew(
-                    -44deg
-                    , 
-                    0deg
-                    );
-} */
+    bottom: 20%;
+    left: 9%;
+    width: 79%;
+    height: 8%;
+    background-color: #D3145A;
+    overflow: hidden;
+    border-radius: 2px;
+    /* z-index: 1; */
+    transform: skew( -44deg, 0deg);
+}
+
+.card-container::after{
+    content: '';
+    position: absolute;
+    top: 6%;
+    right: 7%;
+    width: 9%;
+    height: 70%;
+    background-color: #EF3E90;
+    overflow: hidden;
+    border-radius: 4px;
+    transform: rotateX(172deg) skew(0deg, 50deg);
+
+}
 
 /* bottom and right side 3d design ends */
 
