@@ -8,7 +8,7 @@
     margin-bottom: 10px;
     /* display: none; */
 }
-.card-body{
+.card-body-1{
     /* background-color: #D3145A; */
     padding: 25px 0px 0px 0px;
     margin-left: 30px;
@@ -20,12 +20,18 @@
 .card-image img{
     width: 150px;
     height: 150px;
-    margin: 0px 32px;
+    margin: 13px 47px;
 }
+/* .card-footer{
+    width: 215px;
+    height: 9%;
+    background-color: #ffffff;
+} */
 
 /* 3D card designing starts*/
 /* upper and left side 3d design starts */
-.card-body::before{
+/* upper */
+.card-body-1::before{
     content: '';
     position: absolute;
     top: 2%;
@@ -37,14 +43,16 @@
     border-radius: 5px;
     transform: skew(-44deg, 0deg);
 }
-.card-body::after{
+/* left */
+.card-body-1::after{
     content: '';
     position: absolute;
     top: 6%;
     left: 5%;
     width: 10%;
-    height: 70%;
+    height: 89%;
     background-color: #E7317C;
+    border-radius: 7px;
     overflow: hidden;
     transform: skewY(-41deg);
 
@@ -52,21 +60,20 @@
 /* upper and left side 3d design ends */
 
 /* bottom and right side 3d design starts */
-.card-container::before{
+/* .card-container::before{
     content: '';
     position: absolute;
     bottom: 20%;
     left: 9%;
     width: 79%;
     height: 8%;
-    background-color: #D3145A;
+    background-color: #E7317C;
     overflow: hidden;
     border-radius: 2px;
-    /* z-index: 1; */
     transform: skew( -44deg, 0deg);
-}
+} */
 
-.card-container::after{
+/* .card-container::after{
     content: '';
     position: absolute;
     top: 6%;
@@ -78,6 +85,42 @@
     border-radius: 4px;
     transform: rotateX(172deg) skew(0deg, 50deg);
 
+} */
+
+.card-container-1::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 11%;
+    width: 80%;
+    height: 10%;
+    background-color: #E7317C;
+    overflow: hidden;
+    border-radius: 7px;
+    transform: skew( 
+224deg
+ , 
+180deg
+ );
+}
+.card-container-1::after{
+    content: '';
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    width: 8%;
+    height: 88%;
+    background-color: #EF3E90;
+    overflow: hidden;
+    border-radius: 30px;
+    transform: rotateX(
+16deg
+) skew(
+0deg
+, 
+50deg
+);
+
 }
 
 /* bottom and right side 3d design ends */
@@ -88,6 +131,31 @@
 .textRed{
     background-color: red !important;
 }
-.textGreen{
-    background-color: green !important;
+.card-1{
+    background-color: #D3145A !important;
+    width: 238px;
+    height: 234px;
+    margin: -15px 0px 0px 25px;
+    border-radius: 2px;
+}
+.card-2{
+    background-color: #3AB54A !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-3{
+    background-color: #1AE3DD !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-4{
+    background-color: #652D90 !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
 }
