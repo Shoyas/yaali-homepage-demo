@@ -4,10 +4,7 @@
     /* background-color: #ffffff; */
     margin-bottom: 50px;
 }
-.card-header{
-    margin-bottom: 10px;
-    /* display: none; */
-}
+
 .card-body-1{
     /* background-color: #D3145A; */
     padding: 25px 0px 0px 0px;
@@ -17,16 +14,69 @@
     width: 215px;
 }
 
-.card-image img{
+/* card image design */
+.card-image-1 img{
     width: 150px;
     height: 150px;
     margin: 13px 47px;
 }
-/* .card-footer{
-    width: 215px;
-    height: 9%;
-    background-color: #ffffff;
-} */
+.card-image-2 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 0 10px 48px;
+}
+.card-image-3 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 0 10px 48px;
+}
+.card-image-4 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 18px 8px 48px;
+}
+.card-image-5 img{
+    width: 150px;
+    height: 150px;
+    margin: 13px 47px;
+}
+.card-image-6 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 0 10px 48px;
+}
+.card-image-7 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 0 10px 48px;
+}
+.card-image-8 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 18px 8px 48px;
+}
+.card-image-9 img{
+    width: 150px;
+    height: 150px;
+    margin: 13px 47px;
+}
+.card-image-10 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 0 10px 48px;
+}
+.card-image-11 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 0 10px 48px;
+}
+.card-image-12 img{
+    width: 150px;
+    height: 150px;
+    margin: 39px 0 10px 48px;
+}
+
+
 
 /* 3D card designing starts*/
 /* upper and left side 3d design starts */
@@ -34,27 +84,72 @@
 .card-body-1::before{
     content: '';
     position: absolute;
-    top: 2%;
+    top: 6%;
     left: 9%;
     width: 80%;
-    height: 9%;
+    height: 11%;
     background-color: #AF0C4F;
     overflow: hidden;
     border-radius: 5px;
-    transform: skew(-44deg, 0deg);
+    transform: rotateX(
+-26deg
+) skew(
+37deg
+, 
+0deg
+);
+}
+.card-body-2::before{
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: 16%;
+    width: 75%;
+    height: 11%;
+    background-color: #20892A;
+    overflow: hidden;
+    border-radius: 5px;
+    transform: rotateX(
+172deg
+) skew( 
+-44deg
+ , 
+0deg
+ );
 }
 /* left */
 .card-body-1::after{
     content: '';
     position: absolute;
-    top: 6%;
+    top: 9%;
     left: 5%;
     width: 10%;
-    height: 89%;
+    height: 85%;
     background-color: #E7317C;
-    border-radius: 7px;
+    border-radius: 8px;
     overflow: hidden;
-    transform: skewY(-41deg);
+    transform: rotateX( 
+170deg
+ ) skewY( 
+-39deg
+ );
+
+}
+.card-body-2::after{
+    content: '';
+    position: absolute;
+    top: 7%;
+    left: 11%;
+    width: 10%;
+    height: 90%;
+    background-color: #52CB5D;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: rotateX( 
+162deg
+ ) skewY( 
+-41deg
+ );
 
 }
 /* upper and left side 3d design ends */
@@ -87,39 +182,79 @@
 
 } */
 
-.card-container-1::before{
+.card-container-4::before{
     content: '';
     position: absolute;
-    top: 0%;
+    top: 6%;
     left: 11%;
     width: 80%;
-    height: 10%;
+    height: 11%;
     background-color: #4B2070;
     overflow: hidden;
     border-radius: 7px;
-    transform: skew( 
-224deg
+    transform: rotateX( 
+0deg
+ ) skew( 
+139deg
  , 
 180deg
  );
 }
-.card-container-1::after{
+.card-container-4::after{
     content: '';
     position: absolute;
-    top: 3%;
-    right: 7%;
-    width: 8%;
-    height: 88%;
+    top: 7%;
+    right: 5%;
+    width: 9%;
+    height: 87%;
     background-color: #8248B8;
     overflow: hidden;
     border-radius: 30px;
-    transform: rotateX(
-16deg
-) skew(
+    transform: rotateX( 
+166deg
+ ) skew( 
 0deg
-, 
+ , 
 50deg
-);
+ );
+
+}
+
+.card-container-3::before{
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: 11%;
+    width: 80%;
+    height: 11%;
+    background-color: #0CBAB1;
+    overflow: hidden;
+    border-radius: 7px;
+    transform: rotateX( 
+0deg
+ ) skew( 
+139deg
+ , 
+180deg
+ );
+}
+.card-container-3::after{
+    content: '';
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    width: 9%;
+    height: 87%;
+    background-color: #7CFEFC;
+    overflow: hidden;
+    border-radius: 30px;
+    transform: rotateX( 
+166deg
+ ) skew( 
+0deg
+ , 
+50deg
+ );
 
 }
 
@@ -133,27 +268,83 @@
 }
 .card-1{
     background-color: #D3145A !important;
-    width: 238px;
-    height: 234px;
-    margin: -15px 0px 0px 25px;
+    width: 241px;
+    height: 235px;
+    margin: 12px 0px 0px 24px;
     border-radius: 2px;
 }
 .card-2{
     background-color: #3AB54A !important;
     width: 238px;
-    height: 234px;
-    margin: -13px 0px 0px 28px;
+    height: 240px;
+    margin: 9px 0px 0px 35px;
     border-radius: 2px;
 }
 .card-3{
     background-color: #1AE3DD !important;
+    width: 239px;
+    height: 238px;
+    margin: 8px 0px 0px 8px;
+    border-radius: 2px;
+}
+.card-4{
+    background-color: #652D90 !important;
+    width: 239px;
+    height: 238px;
+    margin: 8px 0px 0px 8px;
+    border-radius: 2px;
+}
+.card-5{
+    background-color: #1B1464 !important;
     width: 238px;
     height: 234px;
     margin: -13px 0px 0px 28px;
     border-radius: 2px;
 }
-.card-4{
-    background-color: #652D90 !important;
+.card-6{
+    background-color: #F8931F !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-7{
+    background-color: #ED1E79 !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-8{
+    background-color: #ED1B24 !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-9{
+    background-color: #29AAE1 !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-10{
+    background-color: #93268F !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-11{
+    background-color: #E1CD1E !important;
+    width: 238px;
+    height: 234px;
+    margin: -13px 0px 0px 28px;
+    border-radius: 2px;
+}
+.card-12{
+    background-color: #8CC63E !important;
     width: 238px;
     height: 234px;
     margin: -13px 0px 0px 28px;
