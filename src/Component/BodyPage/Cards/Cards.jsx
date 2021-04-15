@@ -71,11 +71,32 @@ const Cards = ({product}) => {
 
     let sideBarLeft1 = ["card-body-1"];   // upper and left
     let sideBarLeft2 = ["card-body-2"];   // upper and left
-
+    let sideBarLeft5 = ["card-body-5"];   // upper and left
+    let sideBarLeft6 = ["card-body-6"];   // upper and left
+    
+    let sideBarLeft9 = ["card-body-9"];   // left 
+    let sideBarLeft10 = ["card-body-10"];   // left 
 
 
     let sideBarRight3 = ["card-container-3"]; // right and bottom
     let sideBarRight4 = ["card-container-4"]; // right and bottom
+    let sideBarRight7 = ["card-container-7"]  // right and bottom
+    let sideBarRight8 = ["card-container-8"]; // right and bottom
+
+    let sideBarRight11 = ["card-container-11"] // right
+    let sideBarRight12 = ["card-container-12"] // right
+
+
+    let sideBarBottom5 = ["card-container-bottom-5"]; // bottom
+    let sideBarBottom6 = ["card-container-bottom-6"]; // bottom
+    let sideBarBottom7 = ["card-container-bottom-7"]; // bottom
+    let sideBarBottom8 = ["card-container-bottom-8"]; // bottom
+    let sideBarBottom9 = ["card-container-bottom-9"]; // bottom
+    let sideBarBottom10 = ["card-container-bottom-10"]; // bottom
+    let sideBarBottom11 = ["card-container-bottom-11"]; // bottom
+    let sideBarBottom12 = ["card-container-bottom-12"]; // bottom
+
+
 
 
     // console.log("colorsEven :", colorsEven);
@@ -109,7 +130,27 @@ const Cards = ({product}) => {
                                     // card-container for giving bar right and bottom
                                     stocks.Product.id === 4 ? `${sideBarRight4}`: `${demo}` 
                                     &&
-                                    stocks.Product.id === 3 ? `${sideBarRight3}`: `${demo}` 
+                                    stocks.Product.id === 3 ? `${sideBarRight3}`: `${demo}`
+                                    &&
+                                    stocks.Product.id === 5 ? `${sideBarBottom5}`: `${demo}` 
+                                    &&
+                                    stocks.Product.id === 6 ? `${sideBarBottom6}`: `${demo}`
+                                    &&
+                                    stocks.Product.id === 7 ? `${sideBarRight7}`: `${demo}`
+                                    &&
+                                    stocks.Product.id === 8 ? `${sideBarRight8}`: `${demo}` 
+                                    &&
+                                    stocks.Product.id === 9 ? `${sideBarBottom9}`: `${demo}` 
+                                    &&
+                                    stocks.Product.id === 10 ? `${sideBarBottom10}`: `${demo}` 
+                                    &&
+                                    stocks.Product.id === 11 ? `${sideBarRight11}`: `${demo}` 
+                                    &&
+                                    stocks.Product.id === 12 ? `${sideBarRight12}`: `${demo}` 
+                                    
+                                    
+
+
 
 
                                 } mt-5`}>
@@ -118,6 +159,23 @@ const Cards = ({product}) => {
                                         stocks.Product.id === 1 ? `${sideBarLeft1}`: `${demo}` 
                                         &&
                                         stocks.Product.id === 2 ? `${sideBarLeft2}`: `${demo}` 
+                                        &&
+                                        stocks.Product.id === 5 ? `${sideBarLeft5}`: `${demo}` 
+                                        &&
+                                        stocks.Product.id === 6 ? `${sideBarLeft6}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 7 ? `${sideBarBottom7}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 8 ? `${sideBarBottom8}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 9 ? `${sideBarLeft9}`: `${demo}` 
+                                        &&
+                                        stocks.Product.id === 10 ? `${sideBarLeft10}`: `${demo}`    
+                                        &&
+                                        stocks.Product.id === 11 ? `${sideBarBottom11}`: `${demo}` 
+                                        &&
+                                        stocks.Product.id === 12 ? `${sideBarBottom12}`: `${demo}` 
+
 
                                     } ${
                                         stocks.Product.id === 1 ? `${card1}`: `${demo}` 
@@ -177,7 +235,7 @@ const Cards = ({product}) => {
                                             <img src={image} alt={stocks.Product.name}/>
                                         </div>
                                         <div className="card-tag text-center">
-                                            <small><strong>{stocks.Product.name}</strong></small>
+                                            <small><strong style={{color: 'white'}}>{stocks.Product.name}</strong></small>
                                         </div>
                                     </div>
                                 </div>
