@@ -4,37 +4,7 @@ import image from '../../image/diamondRing.jpg';
 
 const Cards = ({product}) => {
     const {stocks} = product;
-    const totalCard = stocks.length;
-    console.log("Product: ", product);
-    console.log("Stocks: ", stocks);
-
-    // let colorsEven = [];
-    // let colorsOdd = [];
-    // console.log("colorsEven :", colorsEven);
-    // console.log("colorsOdd :", colorsOdd);
-
-    // for(let i=0; i< stocks.length; i++){
-    //     let id = stocks[i].id;
-    //     console.log(id);
-    //     console.log(stocks.length);
-
-    //     if( id%2 === 0){
-    //         if(colorsEven.length === 0){
-    //             colorsEven.push("textRed");
-    //             break;
-    //         }
-    //     }
-    //     if( id%2 === 1){
-    //         if(colorsOdd.length === 0){
-    //             colorsOdd.push("textGreen");
-    //             break;
-    //         }
-    //     }
-
-    // }
-
-
-    // let colorsEven = ["textRed"];
+    
     let card1 = ["card-1"];
     let card2 = ["card-2"];
     let card3 = ["card-3"];
@@ -69,53 +39,62 @@ const Cards = ({product}) => {
     let cardImage12 = ["card-image-12"];
 
 
-    let sideBarLeft1 = ["card-body-1"];   // upper and left
-    let sideBarLeft2 = ["card-body-2"];   // upper and left
-    let sideBarLeft5 = ["card-body-5"];   // upper and left
-    let sideBarLeft6 = ["card-body-6"];   // upper and left
-    
-    let sideBarLeft9 = ["card-body-9"];   // left 
-    let sideBarLeft10 = ["card-body-10"];   // left 
+    let sideBarLeft1 = ["header-1"];   // upper and left
+    let sideBarLeft2 = ["header-2"];   // upper and left
+    let sideBarRight3 = ["header-3"];   // upper and right
+    let sideBarRight4 = ["header-4"];   // upper and right
+    let sideBarLeft5 = ["header-5"];   // upper and left
+    let sideBarBottom5 = ["footer-bottom-5"]; // bottom
+    let sideBarLeft6 = ["header-6"];   // upper and left
+    let sideBarBottom6 = ["footer-bottom-6"]; // bottom
+    let sideBarRight7 = ["header-7"];   // upper and right
+    let sideBarBottom7 = ["footer-bottom-7"]; // bottom
+    let sideBarRight8 = ["header-8"];   // upper and right
+    let sideBarBottom8 = ["footer-bottom-8"]; // bottom
+
+    let sideBarLeft9 = ["header-9"];   //left
+    let sideBarBottom9 = ["footer-bottom-9"]; // bottom
 
 
-    let sideBarRight3 = ["card-container-3"]; // right and bottom
-    let sideBarRight4 = ["card-container-4"]; // right and bottom
-    let sideBarRight7 = ["card-container-7"]  // right and bottom
-    let sideBarRight8 = ["card-container-8"]; // right and bottom
+    let sideBarLeft10 = ["header-10"];   //left
+    let sideBarBottom10 = ["footer-bottom-10"]; // bottom
 
-    let sideBarRight11 = ["card-container-11"] // right
-    let sideBarRight12 = ["card-container-12"] // right
+    let sideBarRight11 = ["header-11"] // right
+    let sideBarBottom11 = ["footer-bottom-11"]; // bottom
 
+    let sideBarRight12 = ["header-12"] // right
+    let sideBarBottom12 = ["footer-bottom-12"]; // bottom
 
-    let sideBarBottom5 = ["card-container-bottom-5"]; // bottom
-    let sideBarBottom6 = ["card-container-bottom-6"]; // bottom
-    let sideBarBottom7 = ["card-container-bottom-7"]; // bottom
-    let sideBarBottom8 = ["card-container-bottom-8"]; // bottom
-    let sideBarBottom9 = ["card-container-bottom-9"]; // bottom
-    let sideBarBottom10 = ["card-container-bottom-10"]; // bottom
-    let sideBarBottom11 = ["card-container-bottom-11"]; // bottom
-    let sideBarBottom12 = ["card-container-bottom-12"]; // bottom
-
-
-
-
-    // console.log("colorsEven :", colorsEven);
-    // console.log("colorsOdd :", colorsOdd);
-
-    console.log(stocks.length);
-
-    // if( stocks.length % 2 === 0){
-    //     if(colorsEven.length === 0){
-    //         colorsEven.push("textRed");
-    //     }
-    // }
-    // if( stocks.length % 2 === 1){
-    //     if(colorsOdd.length < 0){
-    //         colorsOdd.push("textGreen");
-    //     }
-    // }
 
     
+
+
+    // let sideBarLeft5 = ["header-5"];   // upper and left
+    // let sideBarLeft6 = ["header-6"];   // upper and left
+    
+    // let sideBarLeft9 = ["header-9"];   // left 
+    // let sideBarLeft10 = ["header-10"];   // left 
+
+
+    // let sideBarRight3 = ["footer-3"]; // right and bottom
+    // let sideBarRight4 = ["footer-4"]; // right and bottom
+    // let sideBarRight7 = ["footer-7"]  // right and bottom
+    // let sideBarRight8 = ["footer-8"]; // right and bottom
+
+    // let sideBarRight11 = ["footer-11"] // right
+    // let sideBarRight12 = ["footer-12"] // right
+
+
+    // let sideBarBottom5 = ["footer-bottom-5"]; // bottom
+    // let sideBarBottom6 = ["footer-bottom-6"]; // bottom
+    // let sideBarBottom7 = ["footer-bottom-7"]; // bottom
+    // let sideBarBottom8 = ["footer-bottom-8"]; // bottom
+    // let sideBarBottom9 = ["footer-bottom-9"]; // bottom
+    // let sideBarBottom10 = ["footer-bottom-10"]; // bottom
+    // let sideBarBottom11 = ["footer-bottom-11"]; // bottom
+    // let sideBarBottom12 = ["footer-bottom-12"]; // bottom
+
+  
     
     
 
@@ -126,58 +105,8 @@ const Cards = ({product}) => {
                     stocks.map((stocks) => { 
                         return(
                             <div className="col-md-3" >
-                                <div className={`${
-                                    // card-container for giving bar right and bottom
-                                    stocks.Product.id === 4 ? `${sideBarRight4}`: `${demo}` 
-                                    &&
-                                    stocks.Product.id === 3 ? `${sideBarRight3}`: `${demo}`
-                                    &&
-                                    stocks.Product.id === 5 ? `${sideBarBottom5}`: `${demo}` 
-                                    &&
-                                    stocks.Product.id === 6 ? `${sideBarBottom6}`: `${demo}`
-                                    &&
-                                    stocks.Product.id === 7 ? `${sideBarRight7}`: `${demo}`
-                                    &&
-                                    stocks.Product.id === 8 ? `${sideBarRight8}`: `${demo}` 
-                                    &&
-                                    stocks.Product.id === 9 ? `${sideBarBottom9}`: `${demo}` 
-                                    &&
-                                    stocks.Product.id === 10 ? `${sideBarBottom10}`: `${demo}` 
-                                    &&
-                                    stocks.Product.id === 11 ? `${sideBarRight11}`: `${demo}` 
-                                    &&
-                                    stocks.Product.id === 12 ? `${sideBarRight12}`: `${demo}` 
-                                    
-                                    
-
-
-
-
-                                } mt-5`}>
+                                <div className="card-container mt-5">
                                     <div className={`${
-                                        // card-body for giving bar left and top
-                                        stocks.Product.id === 1 ? `${sideBarLeft1}`: `${demo}` 
-                                        &&
-                                        stocks.Product.id === 2 ? `${sideBarLeft2}`: `${demo}` 
-                                        &&
-                                        stocks.Product.id === 5 ? `${sideBarLeft5}`: `${demo}` 
-                                        &&
-                                        stocks.Product.id === 6 ? `${sideBarLeft6}`: `${demo}`
-                                        &&
-                                        stocks.Product.id === 7 ? `${sideBarBottom7}`: `${demo}`
-                                        &&
-                                        stocks.Product.id === 8 ? `${sideBarBottom8}`: `${demo}`
-                                        &&
-                                        stocks.Product.id === 9 ? `${sideBarLeft9}`: `${demo}` 
-                                        &&
-                                        stocks.Product.id === 10 ? `${sideBarLeft10}`: `${demo}`    
-                                        &&
-                                        stocks.Product.id === 11 ? `${sideBarBottom11}`: `${demo}` 
-                                        &&
-                                        stocks.Product.id === 12 ? `${sideBarBottom12}`: `${demo}` 
-
-
-                                    } ${
                                         stocks.Product.id === 1 ? `${card1}`: `${demo}` 
                                         &&
                                         stocks.Product.id === 2 ? `${card2}`: `${demo}`
@@ -200,13 +129,55 @@ const Cards = ({product}) => {
                                         &&
                                         stocks.Product.id === 11 ? `${card11}`: `${demo}`
                                         &&
-                                        stocks.Product.id === 12 ? `${card12}`: `${demo}`
+                                        stocks.Product.id === 12 ? `${card12}`: `${demo}` 
+                                    } 
+                                    
+                                    ${
+                                        stocks.Product.id === 5 ? `${sideBarBottom5}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 6 ? `${sideBarBottom6}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 7 ? `${sideBarBottom7}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 8 ? `${sideBarBottom8}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 9 ? `${sideBarBottom9}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 10 ? `${sideBarBottom10}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 11 ? `${sideBarBottom11}`: `${demo}`
+                                        &&
+                                        stocks.Product.id === 12 ? `${sideBarBottom12}`: `${demo}`
 
-                                        // &&
-                                        // stocks.Product.id % 2 === 0 ? `${colorsEven}` : `${colorsOdd}` 
-                                    } mb-3`}>
-                                        {/* card image design */}
+                                    }
+                                    card-body`}>
                                         <div className={`${
+                                            stocks.Product.id === 1 ? `${sideBarLeft1}`: `${demo}` 
+                                            &&
+                                            stocks.Product.id === 2 ? `${sideBarLeft2}`: `${demo}` 
+                                            &&
+                                            stocks.Product.id === 3 ? `${sideBarRight3}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 4 ? `${sideBarRight4}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 5 ? `${sideBarLeft5}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 6 ? `${sideBarLeft6}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 7 ? `${sideBarRight7}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 8 ? `${sideBarRight8}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 9 ? `${sideBarLeft9}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 10 ? `${sideBarLeft10}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 11 ? `${sideBarRight11}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 12 ? `${sideBarRight12}`: `${demo}`
+
+                                        }
+                                        ${
                                             stocks.Product.id === 1 ? `${cardImage1}`: `${demo}`
                                             &&
                                             stocks.Product.id === 2 ? `${cardImage2}`: `${demo}`
@@ -230,13 +201,14 @@ const Cards = ({product}) => {
                                             stocks.Product.id === 11 ? `${cardImage11}`: `${demo}`
                                             &&
                                             stocks.Product.id === 12 ? `${cardImage12}`: `${demo}`
-                                        
-                                        } img-fluid`}>
+                                        } img-fluid product-name`}>
                                             <img src={image} alt={stocks.Product.name}/>
+                                            <br/>
+                                            <small><strong style={{color: 'white'}}>
+                                                {stocks.Product.name}
+                                                </strong></small>
                                         </div>
-                                        <div className="card-tag text-center">
-                                            <small><strong style={{color: 'white'}}>{stocks.Product.name}</strong></small>
-                                        </div>
+                                        {/* <div className="footer"></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -268,3 +240,30 @@ export default Cards;
 //         }
 //     })
 // } )
+
+
+
+{/* <>
+            <div className="row">
+                {
+                    stocks.map((stocks) => { 
+                        return(
+                            <div className="col-md-3" >
+                                <div className="card-container mt-5">
+                                    <div className="card-body card mt-3">
+                                        <div className="header"></div>
+                                        <div className="card-image img-fluid">
+                                            <img src={image} alt={stocks.Product.name}/>
+                                        </div>
+                                        <div className="card-tag text-center">
+                                            <small><strong style={{color: 'white'}}>{stocks.Product.name}</strong></small>
+                                        </div>
+                                        <div className="footer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </> */}
