@@ -1,7 +1,7 @@
 .card-container{
     width: 100%;
-    height: 180px;
-    margin-bottom: 50px;
+    height: 270px;
+    margin-bottom: 0px;
 }
 .product-name small strong{
     margin-left: 75px;
@@ -599,97 +599,97 @@
 } */
 .card-1{
     background-color: #D3145A !important;
-    width: 255px;
-    height: 255px;
-    margin: 12px 0px 0px 24px;
+    width: 100%;
+    height: 100%;
+    margin: 12px 0px 0px 7px;
     overflow: hidden;
     position: relative;
 }
 .card-2{
     background-color: #3AB54A !important;
-    width: 255px;
-    height: 255px;
-    margin: 9px 0px 0px 35px;
+    width: 100%;
+    height: 100%;
+    margin: 9px 0px 0px 4px;
     overflow: hidden;
     position: relative;
 }
 .card-3{
     background-color: #1AE3DD !important;
-    width: 255px;
-    height: 255px;
-    margin: 8px 0px 0px 8px;
+    width: 100%;
+    height: 100%;
+    margin: 8px 0px 0px 5px;
     overflow: hidden;
     position: relative;
 }
 .card-4{
     background-color: #652D90 !important;
-    width: 255px;
-    height: 255px;
-    margin: 8px 0px 0px 8px;
+    width: 100%;
+    height: 100%;
+    margin: 8px 0px 0px 2px;
     overflow: hidden;
     position: relative;
 }
 .card-5{
     background-color: #1B1464 !important;
-    width: 255px;
-    height: 255px;
-    margin: 0px 0px 0px 28px;
+    width: 100%;
+    height: 100%;
+    margin: 12px 0px 0px 7px;
     overflow: hidden;
     position: relative;
 }
 .card-6{
     background-color: #F8931F !important;
-    width: 255px;
-    height: 255px;
-    margin: -2px 0px 0px 33px;
+    width: 100%;
+    height: 100%;
+    margin: 9px 0px 0px 4px;
     overflow: hidden;
     position: relative;
 }
 .card-7{
     background-color: #ED1E79 !important;
-    width: 255px;
-    height: 255px;
-    margin: 0px 0px 0px 7px;
+    width: 100%;
+    height: 100%;
+    margin: 8px 0px 0px 5px;
     overflow: hidden;
     position: relative;
 }
 .card-8{
     background-color: #ED1B24 !important;
-    width: 255px;
-    height: 255px;
-    margin: 4px 0px 0px 9px;
+    width: 100%;
+    height: 100%;
+    margin: 8px 0px 0px 2px;
     overflow: hidden;
     position: relative;
 }
 .card-9{
     background-color: #29AAE1 !important;
-    width: 255px;
-    height: 255px;
-    margin: 0px 0px 0px 29px;
+    width: 100%;
+    height: 100%;
+    margin: 12px 0px 0px 7px;
     overflow: hidden;
     position: relative;
 }
 .card-10{
     background-color: #93268F !important;
-    width: 255px;
-    height: 255px;
-    margin: 0px 0px 0px 32px;
+    width: 100%;
+    height: 100%;
+    margin: 9px 0px 0px 4px;
     overflow: hidden;
     position: relative;
 }
 .card-11{
     background-color: #E1CD1E !important;
-    width: 255px;
-    height: 255px;
-    margin: 0px 0px 0px 8px;
+    width: 100%;
+    height: 100%;
+    margin: 8px 0px 0px 5px;
     overflow: hidden;
     position: relative;
 }
 .card-12{
     background-color: #8CC63E !important;
-    width: 255px;
-    height: 255px;
-    margin: 0px 0px 0px 8px;
+    width: 100%;
+    height: 100%;
+    margin: 8px 0px 0px 2px;
     overflow: hidden;
     position: relative;
 }

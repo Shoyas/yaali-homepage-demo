@@ -67,6 +67,9 @@ const Cards = ({product}) => {
     let sideBarBottom12 = ["footer-bottom-12"]; // bottom
 
 
+    let sideBarRight2 = ["header-right-2"] // After responsive right 3
+
+
     
 
 
@@ -94,9 +97,7 @@ const Cards = ({product}) => {
     // let sideBarBottom10 = ["footer-bottom-10"]; // bottom
     // let sideBarBottom11 = ["footer-bottom-11"]; // bottom
     // let sideBarBottom12 = ["footer-bottom-12"]; // bottom
-
-  
-    
+   
     
 
     return (
@@ -105,7 +106,7 @@ const Cards = ({product}) => {
                 {
                     stocks.map((stocks) => { 
                         return(
-                            <div className="col-md-3" >
+                            <div className="col-md-3 col-sm-4 col-6" >
                                 <div className="card-container mt-5">
                                     <div className={`${
                                         stocks.Product.id === 1 ? `${card1}`: `${demo}` 
@@ -155,7 +156,9 @@ const Cards = ({product}) => {
                                         <div className={`${
                                             stocks.Product.id === 1 ? `${sideBarLeft1}`: `${demo}` 
                                             &&
-                                            stocks.Product.id === 2 ? `${sideBarLeft2}`: `${demo}` 
+                                            stocks.Product.id === 2 ? `${sideBarLeft2}`: `${demo}`
+                                            &&
+                                            stocks.Product.id === 2 ? `${sideBarRight2}`: `${demo}` 
                                             &&
                                             stocks.Product.id === 3 ? `${sideBarRight3}`: `${demo}`
                                             &&
