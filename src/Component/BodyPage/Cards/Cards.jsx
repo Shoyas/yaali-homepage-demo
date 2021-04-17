@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cards.css';
+import './CardResponsive.css';
 import image from '../../image/diamondRing.jpg';
 
 const Cards = ({product}) => {

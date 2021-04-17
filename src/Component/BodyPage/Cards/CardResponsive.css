@@ -1,0 +1,502 @@
+/* it will be working under 1920px width display */
+/* @media all and
+(max-width : 1920px)
+{
+    
+    
+} */
+/* it will be working under 1024px width display */
+@media all and
+(max-width : 1024px)
+{
+    .card-container{
+        width: 80%;
+        height: 180px;
+        margin-bottom: -30px;
+    }
+    .card-image-1 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .product-name small strong {
+        margin-left: 19px;
+    }
+    .card-1{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+
+    .card-image-2 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-2{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+
+    .card-image-3 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-3{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+    .card-image-4 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-4{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 15px;
+    }
+
+
+    .card-image-5 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-5{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+    .card-image-6 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-6{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+    .card-image-7 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-7{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+    .card-image-8 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-8{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 15px;
+    }
+    .card-image-9 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-9{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+    .card-image-10 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-10{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+    .card-image-11 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-11{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 8px;
+    }
+    .card-image-12 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-12{
+        width: 170px;
+        height: 170px;
+        margin: 0 0 0 15px;
+    }
+    
+}
+/* it will be working under 768px width display */
+@media all and
+(max-width : 768px)
+{
+    .card-container{
+        width: 80%;
+        height: 180px;
+        margin-bottom: -50px;
+    }
+    .card-image-1 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .product-name small strong {
+        margin-left: 19px;
+    }
+    .card-1{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+
+    .card-image-2 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-2{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+
+    .card-image-3 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-3{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    .card-image-4 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-4{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+
+
+    .card-image-5 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-5{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    .card-image-6 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-6{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    .card-image-7 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-7{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    .card-image-8 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-8{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+
+
+    .card-image-9 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-9{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    .card-image-10 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-10{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    .card-image-11 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-11{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    .card-image-12 img {
+        width: 60px;
+        height: 60px;
+        margin: 26px -5px 1px 31px;
+    }
+    .card-12{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 -14px;
+    }
+    
+}
+/* it will be working under 414px width display */
+@media all and
+(max-width : 414px)
+{
+    .card-1{
+        margin: 12px 0px 0px 40px;
+    }
+    .card-2{
+        margin: 9px 0px 0px 40px;
+    }
+    .card-3{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-4{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-5{
+        margin: 12px 0px 0px 40px;
+    }
+    .card-6{
+        margin: 9px 0px 0px 40px;
+    }
+    .card-7{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-8{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-9{
+        margin: 12px 0px 0px 40px;
+    }
+    .card-10{
+        margin: 9px 0px 0px 40px;
+    }
+    .card-11{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-12{
+        margin: 8px 0px 0px 40px;
+    }
+    
+}
+/* it will be working under 411px width display */
+@media all and
+(max-width : 411px)
+{
+    .card-1{
+        margin: 12px 0px 0px 40px;
+    }
+    .card-2{
+        margin: 9px 0px 0px 40px;
+    }
+    .card-3{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-4{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-5{
+        margin: 12px 0px 0px 40px;
+    }
+    .card-6{
+        margin: 9px 0px 0px 40px;
+    }
+    .card-7{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-8{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-9{
+        margin: 12px 0px 0px 40px;
+    }
+    .card-10{
+        margin: 9px 0px 0px 40px;
+    }
+    .card-11{
+        margin: 8px 0px 0px 40px;
+    }
+    .card-12{
+        margin: 8px 0px 0px 40px;
+    }
+    
+}
+/* it will be working under 375px width display */
+@media all and
+(max-width : 375px)
+{
+    .card-1{
+        margin: 12px 0px 0px 12px;
+    }
+    .card-2{
+        margin: 9px 0px 0px 12px;
+    }
+    .card-3{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-4{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-5{
+        margin: 0px 0px 0px 13px;
+    }
+    .card-6{
+        margin: 9px 0px 0px 12px;
+    }
+    .card-7{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-8{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-9{
+        margin: 12px 0px 0px 12px;
+    }
+    .card-10{
+        margin: 9px 0px 0px 12px;
+    }
+    .card-11{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-12{
+        margin: 8px 0px 0px 13px;
+    }
+    
+}
+/* it will be working under 360px width display */
+@media all and
+(max-width : 360px)
+{
+    .card-1{
+        margin: 12px 0px 0px 12px;
+    }
+    .card-2{
+        margin: 9px 0px 0px 12px;
+    }
+    .card-3{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-4{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-5{
+        margin: 0px 0px 0px 13px;
+    }
+    .card-6{
+        margin: 9px 0px 0px 12px;
+    }
+    .card-7{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-8{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-9{
+        margin: 12px 0px 0px 12px;
+    }
+    .card-10{
+        margin: 9px 0px 0px 12px;
+    }
+    .card-11{
+        margin: 8px 0px 0px 13px;
+    }
+    .card-12{
+        margin: 8px 0px 0px 13px;
+    }
+    
+}
+/* it will be working under 320px width display */
+@media all and
+(max-width : 320px)
+{
+    .card-1{
+        margin: 12px 0px 0px -5px;
+    }
+    .card-2{
+        margin: 9px 0px 0px -5px;
+    }
+    .card-3{
+        margin: 8px 0px 0px -5px;
+    }
+    .card-4{
+        margin: 8px 0px 0px -4px;
+    }
+    .card-5{
+        margin: 0px 0px 0px -2px;
+    }
+    .card-6{
+        margin: 9px 0px 0px -2px;
+    }
+    .card-7{
+        margin: 8px 0px 0px -1px;
+    }
+    .card-8{
+        margin: 8px 0px 0px -1px;
+    }
+    .card-9{
+        margin: 12px 0px 0px -1px;
+    }
+    .card-10{
+        margin: 9px 0px 0px -1px;
+    }
+    .card-11{
+        margin: 8px 0px 0px -1px;
+    }
+    .card-12{
+        margin: 8px 0px 0px -1px;
+    }
+    
+}
+/* it will be working under 280px width display */
+@media all and
+(max-width : 280px)
+{
+    
+    
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './SlidePage.css';
+import './SlideResponsive.css';
 import slide1 from '../image/slide/slide1.jpg';
 import slide2 from '../image/slide/slide2.jpg';
 import slide3 from '../image/slide/slide3.jpg';
@@ -15,7 +16,7 @@ const SlidePage = () => {
                 <Carousel>
                     <Carousel.Item interval={1000}>
                         <img
-                        className="d-block w-100 image-size"
+                        className="d-block slide-width image-size"
                         src={slide1}
                         alt="First slide"
                         />
@@ -27,7 +28,7 @@ const SlidePage = () => {
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
                         <img
-                        className="d-block w-100 image-size"
+                        className="d-block slide-width image-size"
                         src={slide2}
                         alt="Second slide"
                         />
@@ -39,7 +40,7 @@ const SlidePage = () => {
                     </Carousel.Item>
                     <Carousel.Item  interval={1000}>
                         <img
-                        className="d-block w-100 image-size"
+                        className="d-block slide-width image-size"
                         src={slide3}
                         alt="Third slide"
                         />
@@ -51,7 +52,7 @@ const SlidePage = () => {
                     </Carousel.Item>
                     <Carousel.Item  interval={1000}>
                         <img
-                        className="d-block w-100 image-size"
+                        className="d-block slide-width image-size"
                         src={slide4}
                         alt="Forth slide"
                         />
@@ -63,7 +64,7 @@ const SlidePage = () => {
                     </Carousel.Item>
                     <Carousel.Item  interval={1000}>
                         <img
-                        className="d-block w-100 image-size"
+                        className="d-block slide-width image-size"
                         src={slide5}
                         alt="Fifth slide"
                         />
@@ -75,7 +76,7 @@ const SlidePage = () => {
                     </Carousel.Item>
                     <Carousel.Item  interval={1000}>
                         <img
-                        className="d-block w-100 image-size"
+                        className="d-block slide-width image-size"
                         src={slide6}
                         alt="Sixth slide"
                         />

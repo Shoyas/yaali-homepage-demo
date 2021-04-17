@@ -1,0 +1,233 @@
+
+/* it will be working under 1920px width display */
+/* @media all and
+(max-width : 1920px)
+{
+    .carousel-tag{
+        height: 183px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 18px;
+    }
+    .carousel-tag p{
+        font-size: 12px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+} */
+/* it will be working under 1024px width display */
+@media all and
+(max-width : 1024px)
+{
+    .carousel-tag{
+        height: 183px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 18px;
+    }
+    .carousel-tag p{
+        font-size: 12px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
+/* it will be working under 768px width display */
+@media all and
+(max-width : 768px)
+{
+    .slide-width{
+        width: 97%;
+    }
+    .image-size{
+        height: 270px;
+    }
+    .carousel-tag{
+        margin-top: 20px;
+        height: 112px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 18px;
+    }
+    .carousel-tag p{
+        font-size: 12px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
+/* it will be working under 414px width display */
+@media all and
+(max-width : 414px)
+{
+    .slide-width{
+        width: 95%;
+    }
+    .image-size{
+        height: 200px;
+    }
+    .carousel-tag{
+        margin-top: 20px;
+        height: 68px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 10px;
+    }
+    .carousel-tag p{
+        font-size: 7px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
+/* it will be working under 411px width display */
+@media all and
+(max-width : 411px)
+{
+    .slide-width{
+        width: 95%;
+    }
+    .image-size{
+        height: 200px;
+    }
+    .carousel-tag{
+        margin-top: 20px;
+        height: 68px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 10px;
+    }
+    .carousel-tag p{
+        font-size: 7px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
+/* it will be working under 375px width display */
+@media all and
+(max-width : 375px)
+{
+    .slide-width{
+        width: 94%;
+    }
+    .image-size{
+        height: 200px;
+    }
+    .carousel-tag{
+        margin-top: 20px;
+        height: 68px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 10px;
+    }
+    .carousel-tag p{
+        font-size: 7px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
+
+/* it will be working under 360px width display */
+@media all and
+(max-width : 360px)
+{
+    .slide-width{
+        width: 95%;
+    }
+    .image-size{
+        height: 250px;
+    }
+    .carousel-tag{
+        margin-top: 20px;
+        height: 68px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 10px;
+    }
+    .carousel-tag p{
+        font-size: 7px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
+
+
+/* it will be working under 320px width display */
+@media all and
+(max-width : 320px)
+{
+    .slide-width{
+        width: 95%;
+    }
+    .image-size{
+        height: 250px;
+    }
+    .carousel-tag{
+        margin-top: 20px;
+        height: 68px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 10px;
+    }
+    .carousel-tag p{
+        font-size: 7px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
+/* it will be working under 280px width display */
+@media all and
+(max-width : 280px)
+{
+    .slide-width{
+        width: 95%;
+    }
+    .image-size{
+        height: 320px;
+    }
+    .carousel-tag{
+        margin-top: 20px;
+        height: 140px;
+        width: 70%;
+    }
+    .carousel-tag h3{
+        font-size: 10px;
+    }
+    .carousel-tag p{
+        font-size: 7px;
+    }
+    .btn-slide {
+        width: 97px;
+        height: 34px;
+    }
+    
+}
