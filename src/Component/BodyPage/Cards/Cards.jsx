@@ -77,6 +77,9 @@ const Cards = ({product}) => {
     let sideBarResBottom1 = ["footer-res-bottom-1"] // After responsive bottom 1
     let sideBarResBottom2 = ["footer-res-bottom-2"] // After responsive bottom 2
     let sideBarResBottom3 = ["footer-res-bottom-3"] // After responsive bottom 3
+    
+    let sideBarTop11 = ["header-11"] // top
+
 
     
 
