@@ -87,7 +87,8 @@
 /* 3D card designing starts*/
 /* upper and left side 3d design starts */
 /* upper */
-.header-1::before{
+
+/* .header-1::before{
     content: '';
     position: absolute;
     top: -1%;
@@ -106,7 +107,7 @@
  );
 }
 
-/* left */
+
 .header-1::after{
     background-color: #E7317C;
     content: '';
@@ -376,43 +377,6 @@
  );
 }
 
-
-
-/* upper and left side 3d design ends */
-
-/* bottom and right side 3d design starts */
-/* .card-container::before{
-    content: '';
-    position: absolute;
-    bottom: 20%;
-    left: 9%;
-    width: 79%;
-    height: 8%;
-    background-color: #E7317C;
-    border-radius: 2px;
-    transform: skew( -44deg, 0deg);
-} */
-
-/* .card-container::after{
-    content: '';
-    position: absolute;
-    top: 6%;
-    right: 7%;
-    width: 9%;
-    height: 70%;
-    background-color: #EF3E90;
-    overflow: hidden;
-    border-radius: 4px;
-    transform: rotateX(172deg) skew(0deg, 50deg);
-
-} */
-
-
-
-
-
-
-
 .header-11::after{
     background-color: #FEED7D;
     content: '';
@@ -581,7 +545,7 @@
  , 
 0deg
  );
-}
+} */
 
 /* bottom and right side 3d design ends */
 

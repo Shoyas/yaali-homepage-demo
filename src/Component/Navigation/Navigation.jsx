@@ -29,7 +29,8 @@ import { faCartPlus, faHeart, faSearch } from '@fortawesome/free-solid-svg-icons
 const Navigation = () => {
     return (
         <>
-            <div style={{background: 'white'}} className="navigation-area sticky-top">
+        {/* className="navigation-area sticky-top" */}
+            <div style={{background: 'white'}} className="navigation-area">
                 <Navbar expand="lg"  className="">
                     <Navbar.Brand href="#home" className="main-logo">
                         <img src={logo} alt="Yaali" srcset=""/>
